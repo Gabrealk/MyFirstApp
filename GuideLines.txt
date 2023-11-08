@@ -1,0 +1,26 @@
+My first Todo List Guideline
+
+System requirements:
+•	Processor: an i5 or greater processor
+•	RAM: 16gb of ram (recommended)
+•	The latest version of windows 10 or 11
+•	Android Studio, latest version
+Installation Instructions:
+•	Node and JDK installation, enter this prompt into your terminal or VScode terminal in a new folder to install Java SE development kit 11: choco install -y nodejs-lts microsoft-openjdk11
+•	Download and install android studio, during the installation select the android SDK, Android SDK platform, and Android virtual device components.
+Configuration steps:
+•	Open android studio then go to SDK manager and install android SDK platform 33 and other related SDK tools
+Project creation:
+•	Use this to create your project: npx react-native@latest init YourProjectName
+•	Navigate to the terminal and enter npm start or npm run andorid
+Running the project:
+•	After using npm run android, your react native will launch an android emulator
+•	Ensure everything is configured before executing.
+
+Troubleshooting:
+•	Any issues can be addressed here: https://reactnative.dev/docs/troubleshooting
+Resources: 
+•	React native website: https://reactnative.dev/
+•	Getting started: https://reactnative.dev/docs/environment-setup
+•	React native basics: https://reactnative.dev/docs/getting-started
+•	React Native Blog: https://reactnative.dev/blog
