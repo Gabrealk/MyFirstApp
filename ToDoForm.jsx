@@ -11,6 +11,20 @@ import {
   Button
 } from 'react-native';
 
+
+function ToDoForm(){
+
+    return(
+        <View style={styles.form}>
+            <TextInput
+            style={styles.input}
+            placeholder="Add a new task..."
+            />
+        <Button title="Add" />
+      </View>
+    )
+}
+
 const styles = StyleSheet.create({
     sectionContainer: {
       marginTop: 32,
@@ -27,34 +41,7 @@ const styles = StyleSheet.create({
     },
     highlight: {
       fontWeight: '700',
-    },
+    }
   });
-  
-
-function ToDoForm(){
-
-    return(
-        <View style={styles.sectionContainer}>
-            <Text
-            style={[
-                styles.sectionTitle,
-                {
-                    color: isDarkMode ? Colors.white : Colors.black,
-                },
-            ]}>
-            {title}
-            </Text>
-            <Text
-            style={[
-                styles.sectionDescription,
-                {
-                    color: isDarkMode ? Colors.light : Colors.dark,
-                },
-            ]}>
-            {children}
-            </Text>
-        </View>
-    );
-}
 
 export default ToDoForm;
