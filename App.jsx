@@ -13,11 +13,9 @@ function App() {
     ]
   );
 
-    const addTask = (taskText) => {
-      setTasks([...tasks, taskText]);
+    const addTask = (task) => {
+      setTasks([...tasks, task]);
     };
-
-
 
   return (
     <SafeAreaView>
