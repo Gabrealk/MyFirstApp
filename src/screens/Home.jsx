@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { SafeAreaView, Button } from 'react-native';
+import { SafeAreaView, Button, } from 'react-native';
 import ToDoList from '../components/ToDoList';
 import ToDoForm from '../components/ToDoForm';
 import MainLayout from '../layouts/MainLayout';
 
-function App() {
+function App({navigation}) {
 
   const [tasks, setTasks] = useState(
     [

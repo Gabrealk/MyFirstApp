@@ -6,8 +6,8 @@ function About({ }) {
     return (
         <MainLayout>
             <View>
-                <Text>Gabreal's To Do List </Text>
-                <Text>Created by: Gabreal Kalaf</Text>
+                <Text>welcome to Gabreal's To Do List </Text>
+                <Text>To access please go back and add to the todo list!</Text>
             </View>
         </MainLayout>
     );
