@@ -7,11 +7,8 @@ const Chuck = ({ }) => {
 
     const fetchFact = async () => {
         try {
-
         const response = await fetch('https://api.chucknorris.io/jokes/random')
         const decoded = await response.json();
-        // debugger;
-        // console.log(decoded);
 
         const newfact = decoded.value;
 
@@ -20,7 +17,6 @@ const Chuck = ({ }) => {
          catch (err) {
             console.log(err);
          }
-        
     }
 
     React.useEffect(() => {
